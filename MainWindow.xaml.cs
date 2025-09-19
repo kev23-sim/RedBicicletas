@@ -20,5 +20,15 @@ namespace RedBicicletas
         {
             InitializeComponent();
         }
+
+        private void btnIngresar_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnRegistar_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

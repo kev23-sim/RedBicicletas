@@ -8,4 +8,20 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="imagenes\fondo.jpg" />
+    <None Remove="imagenes\password.png" />
+    <None Remove="imagenes\social.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="imagenes\fondo.jpg" />
+    <Resource Include="imagenes\password.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="imagenes\social.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
 </Project>
